@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+#### 🌱 Organic Food Traceability System
 
-## Project info
+A transparent way to trace organic food from farm to table.
 
-**URL**: https://lovable.dev/projects/69a8fa99-e166-4177-94e8-540b397ec1e3
+The Organic Food Traceability System provides end-to-end visibility for organic food products using a digital supply-chain tracking workflow. Built with React, Node.js, and Supabase, this system allows farmers, distributors, retailers, and consumers to verify food authenticity and ensure transparency.
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+### 📖 About the Project
 
-**Use Lovable**
+Consumers often face difficulty verifying whether a product is genuinely organic. Farmers and retailers lack transparent systems to document the journey of food items.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/69a8fa99-e166-4177-94e8-540b397ec1e3) and start prompting.
+This project solves that by enabling:
 
-Changes made via Lovable will be committed automatically to this repo.
+✔ Tracking a product’s journey from the farm → processing → packaging → distribution → retailer → consumer
+✔ Providing authenticity verification
+✔ Storing data securely using Supabase
+✔ A clean and modern React UI for interaction
+✔ Node.js APIs for backend integration
 
-**Use your preferred IDE**
+### ✨ Features
+## 🔗 Product Traceability
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Track complete supply-chain history
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+View all stages of a product’s lifecycle
 
-Follow these steps:
+## 📦 Product Management
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Add new organic products
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Edit/update product details
 
-# Step 3: Install the necessary dependencies.
-npm i
+Delete unwanted entries
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🗂 Supabase Database Integration
 
-**Edit a file directly in GitHub**
+Real-time database
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Secure authentication (optional)
 
-**Use GitHub Codespaces**
+Smart storage for supply chain events
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📊 Interactive Dashboard
 
-## What technologies are used for this project?
+Displays product categories, certifications, origins
 
-This project is built with:
+Visual traceability flow
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- 🧾 Certification Tracking
 
-## How can I deploy this project?
+Organic, USDA, FSSAI, etc.
 
-Simply open [Lovable](https://lovable.dev/projects/69a8fa99-e166-4177-94e8-540b397ec1e3) and click on Share -> Publish.
+Document verification support
 
-## Can I connect a custom domain to my Lovable project?
+### 🛠 Installation
+1️⃣ Clone the repository
+git clone https://github.com/your-username/organic-food-traceability.git
+cd organic-food-traceability
 
-Yes, you can!
+2️⃣ Install client dependencies
+cd client
+npm install
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+3️⃣ Install server dependencies
+cd ../server
+npm install
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### 🔐 Environment Variables
+
+Create a .env file in both client and server directories.
+
+Client (.env)
+REACT_APP_SUPABASE_URL=your_supabase_url
+REACT_APP_SUPABASE_KEY=your_public_key
+
+Server (.env)
+SUPABASE_URL=your_supabase_url
+SUPABASE_SERVICE_ROLE_KEY=your_secret_key
+PORT=5000
+
+▶️ Running the Project
+Start Backend
+cd server
+npm start
+
+Start Frontend
+cd client
+npm start
+
+### Local URLs
+
+Frontend: http://localhost:3000
+
+Backend: http://localhost:5000
+
+#### 🚀 Future Enhancements
+
+- Blockchain smart contract integration
+
+- QR code scanning for instant product traceability
+
+- RFID/IoT sensor integration
+
+- AI-based freshness prediction
+
+- Role management: Farmer / Distributor / Retailer / Consumer
+
+- Export traceability report as PDF
+

@@ -42,56 +42,16 @@ Smart storage for supply chain events
 
 ## 📊 Interactive Dashboard
 
-Displays product categories, certifications, origins
+- Displays product categories, certifications, origins
 
-Visual traceability flow
+- Visual traceability flow
 
 - 🧾 Certification Tracking
 
-Organic, USDA, FSSAI, etc.
+- Organic, USDA, FSSAI, etc.
 
-Document verification support
+- Document verification support
 
-### 🛠 Installation
-1️⃣ Clone the repository
-git clone https://github.com/your-username/organic-food-traceability.git
-cd organic-food-traceability
-
-2️⃣ Install client dependencies
-cd client
-npm install
-
-3️⃣ Install server dependencies
-cd ../server
-npm install
-
-### 🔐 Environment Variables
-
-Create a .env file in both client and server directories.
-
-Client (.env)
-REACT_APP_SUPABASE_URL=your_supabase_url
-REACT_APP_SUPABASE_KEY=your_public_key
-
-Server (.env)
-SUPABASE_URL=your_supabase_url
-SUPABASE_SERVICE_ROLE_KEY=your_secret_key
-PORT=5000
-
-▶️ Running the Project
-Start Backend
-cd server
-npm start
-
-Start Frontend
-cd client
-npm start
-
-### Local URLs
-
-Frontend: http://localhost:3000
-
-Backend: http://localhost:5000
 
 #### 🚀 Future Enhancements
 

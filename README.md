@@ -5,7 +5,7 @@ A transparent way to trace organic food from farm to table.
 The Organic Food Traceability System provides end-to-end visibility for organic food products using a digital supply-chain tracking workflow. Built with React, Node.js, and Supabase, this system allows farmers, distributors, retailers, and consumers to verify food authenticity and ensure transparency.
 
 
-#### 📖 About the Project
+## 📖 About the Project
 
 Consumers often face difficulty verifying whether a product is genuinely organic. Farmers and retailers lack transparent systems to document the journey of food items.
 
@@ -53,7 +53,7 @@ Smart storage for supply chain events
 - Document verification support
 
 
-#### 🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 - Blockchain smart contract integration
 
